@@ -15,7 +15,7 @@ public abstract class Cliente
 	}
 	//public Cliente() {}
 	public abstract String getTipoCliente();
-	public abstract String getIndentificador();
+	public abstract String getIdentificador();
 	
 	public abstract void agregarTiquete(Tiquete tiquete);
 	public abstract int calcularValorTiquetes();
