@@ -13,12 +13,12 @@ import uniandes.dpoo.aerolinea.exceptions.InformacionInconsistenteException;
 import uniandes.dpoo.aerolinea.exceptions.InformacionInconsistenteTiqueteException;
 import uniandes.dpoo.aerolinea.modelo.Aerolinea;
 import uniandes.dpoo.aerolinea.modelo.Ruta;
-import uniandes.dpoo.aerolinea.modelo.Vuelo;
+import uniandes.dpoo.aerolinea.modelo.cliente.Vuelo;
 import uniandes.dpoo.aerolinea.modelo.cliente.Cliente;
 import uniandes.dpoo.aerolinea.modelo.cliente.ClienteCorporativo;
 import uniandes.dpoo.aerolinea.modelo.cliente.ClienteNatural;
 import uniandes.dpoo.aerolinea.tiquetes.GeneradorTiquetes;
-import uniandes.dpoo.aerolinea.tiquetes.Tiquete;
+import uniandes.dpoo.aerolinea.modelo.cliente.Tiquete;
 
 public class PersistenciaTiquetesJson implements IPersistenciaTiquetes
 {

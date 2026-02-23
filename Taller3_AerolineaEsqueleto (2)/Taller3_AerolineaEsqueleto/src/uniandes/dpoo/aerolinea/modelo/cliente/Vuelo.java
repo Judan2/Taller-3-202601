@@ -37,7 +37,7 @@ public class Vuelo {
 		    
 		    // Verifica si hay espacio en el avión
 		    if (tiquetes.size() + cantidad > avion.getCapacidad()) {
-		        throw new VueloSobrevendidoException();// falta implementar las exception
+		        throw new VueloSobrevendidoException(this);// falta implementar las exception
 		    }
 
 		    int tarifa = calculadora.calcularTarifa(this, cliente);

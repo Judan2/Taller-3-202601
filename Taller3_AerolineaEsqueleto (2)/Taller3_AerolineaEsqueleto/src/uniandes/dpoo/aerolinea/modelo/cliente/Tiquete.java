@@ -9,7 +9,7 @@ public class Tiquete
 	private boolean usado;
 	private Vuelo vuelo;	
 	private Cliente cliente;
-	public Tiquete(String codigo, int tarifa, Vuelo vuelo, Cliente clienteComprador) {
+	public Tiquete(String codigo, Vuelo vuelo, Cliente clienteComprador, int tarifa) {
 		super();
 		this.codigo = codigo;
 		this.tarifa = tarifa;

@@ -1,6 +1,6 @@
 package uniandes.dpoo.aerolinea.exceptions;
 
-import uniandes.dpoo.aerolinea.modelo.Vuelo;
+import uniandes.dpoo.aerolinea.modelo.cliente.Vuelo;
 
 /**
  * Esta clase se usa para anunciar que se intentó vender un tiquete para un vuelo que ya está lleno
